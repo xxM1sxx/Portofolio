@@ -1,0 +1,701 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.footer {
+    background-color: #ffc107;
+    padding: 1rem 0;
+}
+
+.social-icons a {
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: translateY(-3px);
+}
+
+footer a {
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffc107 !important;
+}
+
+/* Existing styles */
+.form-container {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.jumbotron {
+    background-image: url('asset/small_contoh_program_c_03b2fad35c.jpeg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+
+.client-logo {
+    max-width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.client-logo:hover {
+    filter: grayscale(0%);
+}
+
+.client-icon {
+    color: #6c757d; /* Gray color */
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.client-icon:hover {
+    color: #007bff; /* Bootstrap primary color or any color of your choice */
+    transform: scale(1.1);
+}
+
+.carousel-item {
+    height: 100vh; /* Full viewport height for large screens */
+}
+
+.carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
+    padding: 20px;
+
+    border-radius: 10px;
+}
+
+.carousel-caption h5 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .carousel-item {
+        height: 70vh;
+    }
+    .carousel-caption {
+        top: 40%;
+    }
+    .carousel-caption h5 {
+        font-size: 2rem;
+    }
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-item {
+        height: 50vh;
+    }
+    .carousel-caption {
+        top: 30%;
+    }
+    .carousel-caption h5 {
+        font-size: 1.5rem;
+    }
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-item {
+        height: 40vh;
+    }
+    .carousel-caption {
+        top: 20%;
+    }
+    .carousel-caption h5 {
+        font-size: 1.2rem;
+    }
+    .carousel-caption p {
+        font-size: 0.8rem;
+    }
+}
+
+/* Existing styles */
+
+.card-img-top {
+    width: 100%;
+    height: 300px; /* Adjust this value as needed */
+    object-fit: cover;
+}
+
+.carousel-caption h5 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .carousel-item:not(:first-child) .carousel-caption h5 {
+        font-size: 8rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .carousel-item:not(:first-child) .carousel-caption h5 {
+        font-size: 6rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-item:not(:first-child) .carousel-caption h5 {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-item:not(:first-child) .carousel-caption h5 {
+        font-size: 2.5rem;
+    }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Ensure the body takes up full viewport height */
+body {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .navbar,
+.dark-mode .card,
+.dark-mode .bg-light {
+    background-color: #1e1e1e !important;
+    color: #ffffff;
+}
+
+.dark-mode .navbar-light .navbar-nav .nav-link,
+.dark-mode .navbar-light .navbar-brand,
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6,
+.dark-mode p,
+.dark-mode .card-title,
+.dark-mode .card-text,
+.dark-mode .list-unstyled li,
+.dark-mode .text-dark {
+    color: #ffffff !important;
+}
+
+.dark-mode .btn-outline-secondary {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.dark-mode .btn-primary {
+    background-color: #bb86fc;
+    border-color: #bb86fc;
+    color: #121212;
+}
+
+.dark-mode .card {
+    border-color: #333;
+}
+
+.dark-mode .form-control {
+    background-color: #333;
+    border-color: #555;
+    color: #ffffff;
+}
+
+.dark-mode .footer {
+    background-color: #1e1e1e;
+}
+
+.dark-mode .client-icon {
+    color: #ffffff;
+}
+
+.dark-mode .social-icons a {
+    color: #ffffff !important;
+}
+
+.dark-mode footer a {
+    color: #ffffff !important;
+}
+
+.dark-mode footer a:hover {
+    color: #bb86fc !important;
+}
+
+/* Navbar specific dark mode styles */
+.dark-mode .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.55)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.dark-mode .nav-link-custom::after {
+    background-color: #ffffff;
+}
+
+/* Existing styles */
+
+body {
+    padding-top: 76px; /* Sesuaikan dengan tinggi navbar Anda */
+}
+
+/* Carousel adjustments */
+#carouselExampleDark {
+    margin-top: -76px; /* Negatif dari padding-top body */
+}
+
+.carousel-item {
+    height: 100vh; /* Full viewport height */
+}
+
+.carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-caption {
+    top: 55%; /* Adjusted from 50% to move content slightly down */
+    transform: translateY(-50%);
+    bottom: initial;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Existing carousel styles */
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+    padding-top: 76px; /* Pastikan padding tetap ada dalam dark mode */
+}
+
+/* Existing dark mode styles */
+
+/* Existing styles */
+
+.navbar {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 1rem;
+}
+
+#darkModeToggle {
+    position: absolute;
+    right: 1rem;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-brand, #darkModeToggle {
+        position: static;
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
+}
+
+/* Dark mode styles */
+.dark-mode .navbar-light .navbar-nav .nav-link {
+    color: #ffffff !important;
+}
+
+.dark-mode .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.55)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Existing dark mode styles */
+
+/* Existing styles */
+
+.nav-link-custom {
+    position: relative;
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link-custom::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+}
+
+.nav-link-custom:hover::after,
+.nav-link-custom.active::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* Dark mode styles */
+.dark-mode .nav-link-custom {
+    color: #ffffff;
+}
+
+.dark-mode .nav-link-custom::after {
+    background-color: #ffffff;
+}
+
+/* Existing dark mode styles */
+
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .nav-link-custom::after {
+        bottom: -5px;
+    }
+}
+
+/* Existing styles */
+
+body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Adjust navbar styles */
+.navbar {
+    width: 100%;
+    left: 0;
+}
+
+/* Adjust carousel styles */
+#carousel-container {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+/* Ensure all sections are full width */
+section {
+    width: 100%;
+}
+
+/* Adjust footer styles */
+footer {
+    width: 100%;
+}
+
+/* Existing styles */
+
+/* Existing styles */
+
+.carousel-item {
+    height: 100vh; /* Full viewport height for large screens */
+}
+
+.carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+/* Add responsive styles for carousel */
+@media (max-width: 768px) {
+    .carousel-item {
+        height: 50vh; /* Half viewport height for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-item {
+        height: 30vh; /* Even smaller for very small screens */
+    }
+}
+
+/* Adjust caption styles for better responsiveness */
+.carousel-caption {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-caption h1 {
+        font-size: 1.5rem;
+    }
+    .carousel-caption p {
+        font-size: 0.8rem;
+    }
+}
+
+/* Existing styles */
+
+/* Dark mode styles for modal */
+.dark-mode .modal-content {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .modal-header {
+    border-bottom-color: #555;
+}
+
+.dark-mode .modal-footer {
+    border-top-color: #555;
+}
+
+.dark-mode .btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+/* Light mode styles for modal (default Bootstrap styles) */
+.modal-content {
+    background-color: #fff;
+    color: #212529;
+}
+
+/* Existing styles */
+
+/* Dark mode styles for buttons */
+.dark-mode .btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.dark-mode .btn-primary:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+/* Light mode styles for buttons (default Bootstrap styles) */
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Existing styles */
+
+/* Light mode styles */
+.custom-list .fas.fa-check-circle {
+    color: var(--bs-primary);
+}
+
+.custom-list li {
+    color: inherit;
+}
+
+/* Dark mode styles */
+body.dark-mode .custom-list .fas.fa-check-circle,
+body.dark-mode .custom-list li {
+    color: #ffffff !important;
+}
+
+/* Existing styles */
+
+/* Card hover effect */
+.service-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Dark mode styles for cards */
+.dark-mode .service-card {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .service-card:hover {
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1) !important;
+}
+
+.profile-image {
+    max-width: 300px;
+    width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .profile-image {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    .profile-image {
+        max-width: 150px;
+    }
+}
+
+.client-logo {
+    max-width: 120px;
+    height: auto;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+.client-logo:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .client-logo {
+        max-width: 100px;
+    }
+}
+
+@media (max-width: 576px) {
+    .client-logo {
+        max-width: 80px;
+    }
+}
+
+#portfolio-team {
+    overflow: hidden;
+    position: relative;
+    min-height: 100vh;
+}
+
+#portfolio-team-bg {
+    pointer-events: none;
+}
+
+/* Pastikan card-card tetap mudah dibaca dengan background semi-transparan */
+#portfolio-team .card {
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: transform 0.3s ease;
+}
+
+#portfolio-team .card:hover {
+    transform: translateY(-5px);
+}
+
+/* Tambahkan spacing antara section */
+.portfolio-section,
+.team-section {
+    padding: 2rem 0;
+}
+
+/* Styling untuk heading */
+#portfolio-team h2 {
+    position: relative;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+#portfolio-team h2:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background: #007bff;
+}

@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Portofolio Fatih Nurrobi A</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link rel="stylesheet" href="asset/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-black" href="#">Fatih Nurrobi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link nav-link-custom px-3" href="#Layanan">Layanan</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom px-3" href="#portfolio">Portofolio</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom px-3" href="#about">Tentang</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom px-3" href="#team">Staff</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom px-3" href="#contact">Kontak Saya</a></li>
+                    <li class="nav-item d-lg-none">
+                        <a class="nav-link nav-link-custom px-3" href="#" id="darkModeToggleMobile">
+                            <i class="fas fa-moon"></i> Mode Gelap
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <button id="darkModeToggle" class="btn btn-outline-secondary d-none d-lg-block">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <div class="container-fluid px-0" id="carousel-container">
+        <div id="carouselExampleDark" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="asset/Image (11).png" class="d-block w-100" alt="Welcome Background">
+                    <div class="carousel-caption">
+                        <h1>Welcome to My Portfolio</h1>
+                        <p>Explore my projects and skills</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="asset/Image (9).png" class="d-block w-100" alt="Web Development">
+                    <div class="carousel-caption">
+                        <h5>Web Development</h5>
+                        <p>Creating responsive and modern websites for your business needs.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="asset/Image (8).png" class="d-block w-100" alt="Electrical Design">
+                    <div class="carousel-caption">
+                        <h5>Electrical Design</h5>
+                        <p>Innovative electrical solutions for various industrial and commercial applications.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="asset/Image (12).png" class="d-block w-100" alt="IoT">
+                    <div class="carousel-caption">
+                        <h5>Internet of Things</h5>
+                        <p>Connecting devices and optimizing processes with cutting-edge IoT solutions.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0 text-center text-md-start" data-aos="fade-right">
+                    <img src="asset/fatih.png" class="img-fluid rounded profile-image" alt="Fatih Nurrobi">
+                </div>
+                <div class="col-lg-8 col-md-6" data-aos="fade-left">
+                    <h3 class="mb-4">Siapa Saya</h3>
+                    <p class="text-justify">
+                        Sebagai mahasiswa di Universitas Pendidikan Indonesia, jurusan Teknik Komputer dengan spesialisasi sistem tertanam, saya telah mengembangkan fondasi yang kuat dalam desain, pengembangan, dan integrasi sistem perangkat keras dan perangkat lunak. Perjalanan akademis saya telah memungkinkan saya untuk fokus pada bidang-bidang mutakhir seperti Internet of Things (IoT), di mana saya mengeksplorasi interkonektivitas perangkat dan data. Saya juga sangat terlibat dalam desain elektronik, bekerja dengan desain sirkuit, mikrokontroler, dan sensor untuk membangun sistem yang fungsional dan efisien.
+                    </p>
+                    <ul class="list-unstyled custom-list">
+                        <li><i class="fas fa-check-circle me-2"></i>Pengembangan web responsif dan modern</li>
+                        <li><i class="fas fa-check-circle me-2"></i>Desain dan implementasi solusi IoT (Internet of Things)</li>
+                        <li><i class="fas fa-check-circle me-2"></i>Desain elektrikal untuk berbagai aplikasi</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Layanan Section -->
+    <section id="Layanan" class="services py-5" style="background-color: var(--background-color); position: relative;">
+        <!-- Three.js container -->
+        <div id="particles-bg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;"></div>
+        
+        <!-- Existing content with higher z-index -->
+        <div class="container" style="position: relative; z-index: 2;">
+            <h2 class="text-center mb-5" data-aos="fade-up" style="color: var(--primary-color);">Layanan</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card h-100 border-0 shadow-sm service-card" data-bs-toggle="modal" data-bs-target="#webDevModal">
+                        <div class="card-body text-center">
+                            <i class="fas fa-laptop-code fa-3x mb-3" style="color: var(--secondary-color);"></i>
+                            <h3 class="card-title h4" style="color: var(--primary-color);">Web Development</h3>
+                            <p class="card-text">Saya menyediakan layanan pengembangan website yang responsif dan modern untuk memenuhi kebutuhan bisnis Anda.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card h-100 border-0 shadow-sm service-card" data-bs-toggle="modal" data-bs-target="#iotModal">
+                        <div class="card-body text-center">
+                            <i class="fas fa-microchip fa-3x mb-3" style="color: var(--secondary-color);"></i>
+                            <h3 class="card-title h4" style="color: var(--primary-color);">IoT (Internet of Things)</h3>
+                            <p class="card-text">Saya ahli dalam mengembangkan solusi IoT inovatif yang menghubungkan perangkat dan mengoptimalkan proses bisnis Anda.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card h-100 border-0 shadow-sm service-card" data-bs-toggle="modal" data-bs-target="#electricalModal">
+                        <div class="card-body text-center">
+                            <i class="fas fa-bolt fa-3x mb-3" style="color: var(--secondary-color);"></i>
+                            <h3 class="card-title h4" style="color: var(--primary-color);">Electrical Design</h3>
+                            <p class="card-text">Saya menyediakan layanan desain elektrikal yang efisien dan inovatif untuk berbagai kebutuhan industri dan komersial.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Section -->
+    <section id="clients" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Klien Saya</h2>
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-2 col-4 mb-4 mb-md-0 text-center" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="https://down-ws-id.img.susercontent.com/07852eafa45ecdb11c352860da4c30d4_tn.webp" alt="HDSock" class="client-logo">
+                </div>
+                <div class="col-md-2 col-4 mb-4 mb-md-0 text-center" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="https://smkn4bdg.sch.id/image/smkn4.png" alt="SMK 4" class="client-logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gabungkan section portfolio dan tim -->
+    <section id="portfolio-team" class="py-5" style="position: relative;">
+        <!-- Container untuk background 3D -->
+        <div id="portfolio-team-bg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;"></div>
+        
+        <!-- Konten dengan z-index lebih tinggi -->
+        <div class="container" style="position: relative; z-index: 2;">
+            <!-- Portfolio content -->
+            <div class="portfolio-section mb-5">
+                <h2 class="text-center mb-4">Portfolio</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="100">
+                        <div class="card">
+                            <img src="asset/Screenshot 2024-10-15 074617.png" class="card-img-top" alt="ParkED">
+                            <div class="card-body">
+                                <h5 class="card-title">ParkED</h5>
+                                <p class="card-text">Website inovatif untuk deteksi dini penyakit Parkinson menggunakan teknologi AI dan analisis gerakan.</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#parkEDModal">
+                                    Lihat Detail
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="200">
+                        <div class="card">
+                            <img src="asset/quanty.jpg" class="card-img-top" alt="Quanty IoT">
+                            <div class="card-body">
+                                <h5 class="card-title">Quanty IoT</h5>
+                                <p class="card-text">Alat penghitung canggih berbasis IoT dan AI untuk industri, meningkatkan efisiensi dan akurasi dalam proses produksi.</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#quantyIoTModal">
+                                    Lihat Detail
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="300">
+                        <div class="card">
+                            <img src="asset/WhatsApp Image 2024-06-05 at 14.43.52_cc69e62c.jpg" class="card-img-top" alt="Line Follower Robot">
+                            <div class="card-body">
+                                <h5 class="card-title">Line Follower Robot</h5>
+                                <p class="card-text">Robot otomatis yang mengikuti jalur dengan presisi tinggi, untuk di aplikasikan kepada media pembelajaran.</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#lineFollowerModal">
+                                    Lihat Detail
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="100">
+                        <div class="card">
+                            <img src="asset/PPKS.png" class="card-img-top" alt="Line Follower Robot">
+                            <div class="card-body">
+                                <h5 class="card-title">Web Pelaporan Kekerasan Seksual</h5>
+                                <p class="card-text">Web pelaporan kekerasan seksual yang dapat diakses oleh mahasiswa, untuk melaporkan kekerasan seksual yang terjadi di lingkugan kampus.</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#webPelaporanModal">
+                                    Lihat Detail
+                                </button>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="100">
+                        <div class="card">
+                            <img src="asset/PCB-Prokon-GP.png" class="card-img-top" alt="Line Follower Robot">
+                            <div class="card-body">
+                                <h5 class="card-title">Desain PCB </h5>
+                                <p class="card-text">Mebuat desain PCB perangkat IoT yang berbasis ESP 32 untuk level industri menggunakan software EAGLE</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#desainPCBModal">
+                                    Lihat Detail
+                                </button>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="100">
+                        <div class="card">
+                            <img src="asset/skematik .png" class="card-img-top" alt="Line Follower Robot">
+                            <div class="card-body">
+                                <h5 class="card-title">Skematik Layout</h5>
+                                <p class="card-text">Memdesain rancangan skematik sistem tertanam untuk memonitoring kualitas udara secara realtime menggunakan arduino nano sebagai mikrokontroler</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#skematikLayoutModal">
+                                    Lihat Detail
+                                </button>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tim Kami Section -->
+    <section id="team" class="py-5 min-vh-100">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Tim Saya</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card">
+                        <img src="asset/my photo.png" class="card-img-top" alt="Team Member 1">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Andakara</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card">
+                        <img src="asset/WhatsApp Image 2023-12-14 at 20.26.21_0188434c.jpg" class="card-img-top" alt="Team Member 2">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Fatih Nurrobi A</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card">
+                        <img src="asset/davi.png" class="card-img-top" alt="Team Member 3">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Davi Hanan</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak saya Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Kontak Saya</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4" data-aos="fade-right">
+                    <h3>Informasi Kontak</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Alamat: Jl. Kalpataru II No. 69, Kota Bandung, Indonesia</p>
+                    <p><i class="fas fa-phone"></i> Telepon: +62 877 3745 1006</p>
+                    <p><i class="fas fa-envelope"></i> Email: fatihnurrobi@upi.edu</p>
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Nama Anda">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email Anda">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Pesan Anda"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (yang sudah ada sebelumnya) -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <h2 class="h5 mb-3">Fatih Nurrobi</h2>
+                    <p class="small">Mahasiswa di Universitas Pendidikan Indonesia, jurusan Teknik Komputer dengan spesialisasi sistem tertanam.</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/xxM1sxx" class="text-white me-2"><i class="fab fa-github"></i></a>
+                        <a href="https://www.tiktok.com/@m1sx_" class="text-white me-2"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/fatih_nurrobi/" class="text-white"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <h3 class="h6 mb-3">Quick Links</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="#Layanan" class="text-white text-decoration-none">Layanan</a></li>
+                        <li><a href="#portfolio" class="text-white text-decoration-none">Portofolio</a></li>
+                        <li><a href="#about" class="text-white text-decoration-none">Tentang</a></li>
+                        <li><a href="#contact" class="text-white text-decoration-none">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <h3 class="h6 mb-3">Layanan</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Web Development</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Electrical Designer</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">IoT (Internet of Things)</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="h6 mb-3">Kontak</h3>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-map-marker-alt me-2"></i>Kota Bandung, Indonesia</li>
+                        <li><i class="fas fa-phone me-2"></i> +62 877 3745 1006</li>
+                        <li><i class="fas fa-envelope me-2"></i> fatihnurrobi@upi.edu</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="mt-4 mb-3">
+            <div class="row">
+                <div class="col-md-6 small">
+                    &copy; 2024 Fatih Nurrobi. All rights reserved.
+                </div>
+                <div class="col-md-6 text-md-end small">
+                    <a href="#" class="text-white text-decoration-none me-2">Privacy Policy</a>
+                    <a href="#" class="text-white text-decoration-none">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Modal for ParkED -->
+    <div class="modal fade" id="parkEDModal" tabindex="-1" aria-labelledby="parkEDModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="parkEDModalLabel">ParkED</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <img src="asset/Screenshot 2024-10-15 074617.png" class="img-fluid rounded" alt="ParkED">
+              </div>
+              <div class="col-md-6">
+                <h5>Gambaran Proyek</h5>
+                <p>ParkED adalah situs web inovatif untuk deteksi dini penyakit Parkinson menggunakan teknologi AI dan analisis gerakan.</p>
+                <h5>Fitur Utama</h5>
+                <ul>
+                  <li>Analisis gerakan berbasis AI</li>
+                  <li>Antarmuka yang ramah pengguna untuk pasien dan penyedia layanan kesehatan</li>
+                  <li>Pemrosesan data dan hasil secara real-time</li>
+                </ul>
+                <h5>Teknologi yang Digunakan</h5>
+                <p>Frontend: HTML, CSS, JavaScript, React.js<br>
+                   Backend: Python, Django<br>
+                   AI/ML: TensorFlow, OpenCV<br>
+                   Database: PostgreSQL</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for Quanty IoT -->
+    <div class="modal fade" id="quantyIoTModal" tabindex="-1" aria-labelledby="quantyIoTModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="quantyIoTModalLabel">Quanty IoT</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <img src="asset/quanty.jpg" class="img-fluid rounded" alt="Quanty IoT">
+              </div>
+              <div class="col-md-6">
+                <h5>Gambaran Proyek</h5>
+                <p>Quanty IoT adalah alat penghitung canggih berbasis IoT dan AI untuk industri, meningkatkan efisiensi dan akurasi dalam proses produksi.</p>
+                <h5>Fitur Utama</h5>
+                <ul>
+                  <li>Penghitungan otomatis berbasis AI</li>
+                  <li>Integrasi dengan sistem IoT industri</li>
+                  <li>Analisis data real-time untuk optimasi produksi</li>
+                </ul>
+                <h5>Teknologi yang Digunakan</h5>
+                <p>IoT: ESP32, MQTT<br>
+                   AI: TensorFlow Lite<br>
+                   Backend: Python, Flask<br>
+                   Frontend: React Native</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for Line Follower Robot -->
+    <div class="modal fade" id="lineFollowerModal" tabindex="-1" aria-labelledby="lineFollowerModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="lineFollowerModalLabel">Line Follower Robot</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <img src="asset/WhatsApp Image 2024-06-05 at 14.43.52_cc69e62c.jpg" class="img-fluid rounded" alt="Line Follower Robot">
+              </div>
+              <div class="col-md-6">
+                <h5>Gambaran Proyek</h5>
+                <p>Robot otomatis yang mengikuti jalur dengan presisi tinggi, untuk diaplikasikan kepada media pembelajaran.</p>
+                <h5>Fitur Utama</h5>
+                <ul>
+                  <li>Sensor garis presisi tinggi</li>
+                  <li>Algoritma kontrol PID untuk pergerakan halus</li>
+                  <li>Desain modular untuk kemudahan pembelajaran</li>
+                </ul>
+                <h5>Teknologi yang Digunakan</h5>
+                <p>Mikrokontroler: Arduino<br>
+                   Sensor: Infrared<br>
+                   Motor: DC dengan driver L298N<br>
+                   Pemrograman: C++</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for Web Pelaporan Kekerasan Seksual -->
+    <div class="modal fade" id="webPelaporanModal" tabindex="-1" aria-labelledby="webPelaporanModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="webPelaporanModalLabel">Web Pelaporan Kekerasan Seksual</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <img src="asset/PPKS.png" class="img-fluid rounded" alt="Web Pelaporan Kekerasan Seksual">
+              </div>
+              <div class="col-md-6">
+                <h5>Gambaran Proyek</h5>
+                <p>Web pelaporan kekerasan seksual yang dapat diakses oleh mahasiswa, untuk melaporkan kekerasan seksual yang terjadi di lingkungan kampus.</p>
+                <h5>Fitur Utama</h5>
+                <ul>
+                  <li>Form pelaporan anonim</li>
+                  <li>Sistem tracking laporan</li>
+                  <li>Integrasi dengan layanan konseling kampus</li>
+                </ul>
+                <h5>Teknologi yang Digunakan</h5>
+                <p>Frontend: React.js<br>
+                   Backend: Node.js, Express<br>
+                   Database: MongoDB<br>
+                   Keamanan: JWT, bcrypt</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for Desain PCB -->
+    <div class="modal fade" id="desainPCBModal" tabindex="-1" aria-labelledby="desainPCBModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="desainPCBModalLabel">Desain PCB</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <img src="asset/PCB-Prokon-GP.png" class="img-fluid rounded" alt="Desain PCB">
+              </div>
+              <div class="col-md-6">
+                <h5>Gambaran Proyek</h5>
+                <p>Membuat desain PCB perangkat IoT yang berbasis ESP 32 untuk level industri menggunakan software EAGLE.</p>
+                <h5>Fitur Utama</h5>
+                <ul>
+                  <li>Desain multi-layer untuk efisiensi ruang</li>
+                  <li>Optimasi jalur untuk kinerja RF</li>
+                  <li>Integrasi komponen SMD untuk miniaturisasi</li>
+                </ul>
+                <h5>Teknologi yang Digunakan</h5>
+                <p>Software: Autodesk EAGLE<br>
+                   Mikrokontroler: ESP32<br>
+                   Komponen: SMD (Surface Mount Device)<br>
+                   Standar: IPC-2221</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for Skematik Layout -->
+    <div class="modal fade" id="skematikLayoutModal" tabindex="-1" aria-labelledby="skematikLayoutModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="skematikLayoutModalLabel">Skematik Layout</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <img src="asset/skematik .png" class="img-fluid rounded" alt="Skematik Layout">
+              </div>
+              <div class="col-md-6">
+                <h5>Gambaran Proyek</h5>
+                <p>Mendesain rancangan skematik sistem tertanam untuk memonitoring kualitas udara secara realtime menggunakan Arduino Nano sebagai mikrokontroler.</p>
+                <h5>Fitur Utama</h5>
+                <ul>
+                  <li>Integrasi sensor kualitas udara</li>
+                  <li>Sistem monitoring real-time</li>
+                  <li>Desain hemat daya untuk operasi jangka panjang</li>
+                </ul>
+                <h5>Teknologi yang Digunakan</h5>
+                <p>Mikrokontroler: Arduino Nano<br>
+                   Sensor: MQ-135 (kualitas udara)<br>
+                   Software: KiCad<br>
+                   Komunikasi: LoRa untuk transmisi jarak jauh</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for Web Development -->
+    <div class="modal fade" id="webDevModal" tabindex="-1" aria-labelledby="webDevModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="webDevModalLabel">Web Development</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="asset/Image (9).png" class="img-fluid rounded" alt="Web Development">
+                        </div>
+                        <div class="col-md-6">
+                            <h5>Layanan Web Development</h5>
+                            <p>Saya menyediakan layanan pengembangan website yang komprehensif untuk memenuhi kebutuhan bisnis Anda.</p>
+                            <h5>Fitur Layanan</h5>
+                            <ul>
+                                <li>Desain responsif dan modern</li>
+                                <li>Optimasi SEO</li>
+                                <li>Integrasi dengan berbagai platform</li>
+                                <li>Performa website yang optimal</li>
+                                <li>Keamanan website yang terjamin</li>
+                            </ul>
+                            <h5>Teknologi yang Digunakan</h5>
+                            <ul>
+                                <li>Frontend: HTML5, CSS3, JavaScript, React.js</li>
+                                <li>Backend: Node.js, PHP, Python</li>
+                                <li>Database: MySQL, MongoDB</li>
+                                <li>Tools: Git, Docker, AWS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for IoT -->
+    <div class="modal fade" id="iotModal" tabindex="-1" aria-labelledby="iotModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="iotModalLabel">IoT (Internet of Things)</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="asset/Image (10).png" class="img-fluid rounded" alt="IoT">
+                        </div>
+                        <div class="col-md-6">
+                            <h5>Layanan IoT</h5>
+                            <p>Solusi IoT inovatif untuk mengoptimalkan proses bisnis dan meningkatkan efisiensi operasional.</p>
+                            <h5>Fitur Layanan</h5>
+                            <ul>
+                                <li>Sistem monitoring real-time</li>
+                                <li>Otomatisasi proses industri</li>
+                                <li>Analisis data IoT</li>
+                                <li>Integrasi dengan sistem yang ada</li>
+                                <li>Solusi IoT kustom</li>
+                            </ul>
+                            <h5>Teknologi yang Digunakan</h5>
+                            <ul>
+                                <li>Mikrokontroler: ESP32, Arduino, Raspberry Pi</li>
+                                <li>Protokol: MQTT, HTTP, WebSocket</li>
+                                <li>Platform: Node-RED, ThingsBoard</li>
+                                <li>Sensor: Berbagai jenis sensor industri</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Electrical Design -->
+    <div class="modal fade" id="electricalModal" tabindex="-1" aria-labelledby="electricalModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="electricalModalLabel">Electrical Design</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="asset/Image (12).png" class="img-fluid rounded" alt="Electrical Design">
+                        </div>
+                        <div class="col-md-6">
+                            <h5>Layanan Electrical Design</h5>
+                            <p>Layanan desain elektrikal profesional untuk berbagai kebutuhan industri dan komersial.</p>
+                            <h5>Fitur Layanan</h5>
+                            <ul>
+                                <li>Desain sistem kontrol</li>
+                                <li>Perancangan PCB</li>
+                                <li>Sistem otomasi industri</li>
+                                <li>Konsultasi teknis</li>
+                                <li>Optimasi sistem elektrikal</li>
+                            </ul>
+                            <h5>Teknologi yang Digunakan</h5>
+                            <ul>
+                                <li>Software: AutoCAD Electrical, EAGLE</li>
+                                <li>Simulasi: Proteus, KiCad</li>
+                                <li>Kontrol: PLC, Mikrokontroler</li>
+                                <li>Standar: IEC, PUIL</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="asset/script.js"></script>
+    <script src="asset/three-background.js"></script>
+
+</body>
+</html>
